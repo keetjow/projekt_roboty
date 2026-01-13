@@ -1,0 +1,43 @@
+[0.764s] Invoking command in '/home/vboxuser/Desktop/projekt/ros2_ws/src/robot_interface_control': PYTHONPATH=/home/vboxuser/Desktop/projekt/build/robot_interface_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_interface_control build --build-base /home/vboxuser/Desktop/projekt/build/robot_interface_control/build install --record /home/vboxuser/Desktop/projekt/build/robot_interface_control/install.log --single-version-externally-managed install_data
+[1.030s] running egg_info
+[1.032s] creating ../../../build/robot_interface_control/robot_interface_control.egg-info
+[1.033s] writing ../../../build/robot_interface_control/robot_interface_control.egg-info/PKG-INFO
+[1.033s] writing dependency_links to ../../../build/robot_interface_control/robot_interface_control.egg-info/dependency_links.txt
+[1.033s] writing entry points to ../../../build/robot_interface_control/robot_interface_control.egg-info/entry_points.txt
+[1.033s] writing requirements to ../../../build/robot_interface_control/robot_interface_control.egg-info/requires.txt
+[1.033s] writing top-level names to ../../../build/robot_interface_control/robot_interface_control.egg-info/top_level.txt
+[1.033s] writing manifest file '../../../build/robot_interface_control/robot_interface_control.egg-info/SOURCES.txt'
+[1.034s] reading manifest file '../../../build/robot_interface_control/robot_interface_control.egg-info/SOURCES.txt'
+[1.037s] writing manifest file '../../../build/robot_interface_control/robot_interface_control.egg-info/SOURCES.txt'
+[1.037s] running build
+[1.038s] running build_py
+[1.038s] creating /home/vboxuser/Desktop/projekt/build/robot_interface_control/build
+[1.039s] creating /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib
+[1.039s] creating /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+[1.040s] copying robot_interface_control/__init__.py -> /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+[1.040s] copying robot_interface_control/camera_display.py -> /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+[1.040s] copying robot_interface_control/click_controller.py -> /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+[1.040s] running install
+[1.040s] running install_lib
+[1.040s] creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+[1.040s] copying /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control/__init__.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+[1.041s] copying /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control/camera_display.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+[1.041s] copying /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control/click_controller.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+[1.041s] byte-compiling /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control/__init__.py to __init__.cpython-310.pyc
+[1.041s] byte-compiling /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control/camera_display.py to camera_display.cpython-310.pyc
+[1.041s] byte-compiling /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control/click_controller.py to click_controller.cpython-310.pyc
+[1.042s] running install_data
+[1.042s] creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index
+[1.042s] creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index/resource_index
+[1.042s] creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index/resource_index/packages
+[1.042s] copying resource/robot_interface_control -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index/resource_index/packages
+[1.042s] copying package.xml -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/robot_interface_control
+[1.042s] creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/robot_interface_control/launch
+[1.042s] copying launch/robot_control.launch.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/robot_interface_control/launch
+[1.043s] running install_egg_info
+[1.043s] Copying ../../../build/robot_interface_control/robot_interface_control.egg-info to /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control-0.0.1-py3.10.egg-info
+[1.044s] running install_scripts
+[1.066s] Installing camera_publisher script to /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/robot_interface_control
+[1.067s] Installing click_controller script to /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/robot_interface_control
+[1.067s] writing list of installed files to '/home/vboxuser/Desktop/projekt/build/robot_interface_control/install.log'
+[1.094s] Invoked command in '/home/vboxuser/Desktop/projekt/ros2_ws/src/robot_interface_control' returned '0': PYTHONPATH=/home/vboxuser/Desktop/projekt/build/robot_interface_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_interface_control build --build-base /home/vboxuser/Desktop/projekt/build/robot_interface_control/build install --record /home/vboxuser/Desktop/projekt/build/robot_interface_control/install.log --single-version-externally-managed install_data

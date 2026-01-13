@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/robot_interface_control/robot_interface_control.egg-info
+writing ../../../build/robot_interface_control/robot_interface_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robot_interface_control/robot_interface_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/robot_interface_control/robot_interface_control.egg-info/entry_points.txt
+writing requirements to ../../../build/robot_interface_control/robot_interface_control.egg-info/requires.txt
+writing top-level names to ../../../build/robot_interface_control/robot_interface_control.egg-info/top_level.txt
+writing manifest file '../../../build/robot_interface_control/robot_interface_control.egg-info/SOURCES.txt'
+reading manifest file '../../../build/robot_interface_control/robot_interface_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robot_interface_control/robot_interface_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/Desktop/projekt/build/robot_interface_control/build
+creating /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib
+creating /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+copying robot_interface_control/__init__.py -> /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+copying robot_interface_control/camera_display.py -> /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+copying robot_interface_control/click_controller.py -> /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control
+running install
+running install_lib
+creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+copying /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control/__init__.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+copying /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control/camera_display.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+copying /home/vboxuser/Desktop/projekt/build/robot_interface_control/build/lib/robot_interface_control/click_controller.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control
+byte-compiling /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control/camera_display.py to camera_display.cpython-310.pyc
+byte-compiling /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control/click_controller.py to click_controller.cpython-310.pyc
+running install_data
+creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index
+creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index/resource_index
+creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index/resource_index/packages
+copying resource/robot_interface_control -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/robot_interface_control
+creating /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/robot_interface_control/launch
+copying launch/robot_control.launch.py -> /home/vboxuser/Desktop/projekt/install/robot_interface_control/share/robot_interface_control/launch
+running install_egg_info
+Copying ../../../build/robot_interface_control/robot_interface_control.egg-info to /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/python3.10/site-packages/robot_interface_control-0.0.1-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/robot_interface_control
+Installing click_controller script to /home/vboxuser/Desktop/projekt/install/robot_interface_control/lib/robot_interface_control
+writing list of installed files to '/home/vboxuser/Desktop/projekt/build/robot_interface_control/install.log'

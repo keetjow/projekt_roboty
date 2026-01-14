@@ -39,8 +39,19 @@ def generate_launch_description():
         click_controller_node,
     ])
 
+# Bez dockera:
 # cd ~/Desktop/projekt/ros2_ws
 # colcon build --packages-select robot_interface_control
 # source install/setup.bash
 # export TURTLEBOT3_MODEL=waffle_pi
 # ros2 launch robot_interface_control robot_control.launch.py
+
+# Z dockerem:
+# cd ~/Desktop/projekt
+# docker build -t robot_interface_control .
+# ./docker_run.sh
+# export TURTLEBOT3_MODEL=waffle_pi
+# ros2 launch robot_interface_control robot_control.launch.py
+
+
+# Pozniej sie naprawi .sh

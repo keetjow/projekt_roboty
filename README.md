@@ -1,8 +1,8 @@
 # Projekt zaliczeniowy – Narzędzia i oprogramowanie dla systemów robotycznych
 
 ## Autorzy
-- autor1
-- autor2
+- Wojciech Gandziarowski
+- Kacper Gadomski
 
 ---
 
@@ -13,7 +13,6 @@
 ## Uruchamianie projektu na hoście
 
 ```bash
-cd ~/Desktop/projekt/ros2_ws
 colcon build --packages-select robot_interface_control
 source install/setup.bash
 export TURTLEBOT3_MODEL=waffle_pi
